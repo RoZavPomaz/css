@@ -1,6 +1,13 @@
 * {
     background-color: whitesmoke;
     font-family: sans-serif;
+
+}
+
+body {
+
+    font-family: cursive;
+    color: seagreen;
 }
 
 h1 {
@@ -20,6 +27,17 @@ h2 {
 
     background-color: blue;
     color: white;
-    font-family: cursive;
 
+}
+
+.ejemplo {
+    background-color: blue;
+    color: green;
+    color: white;
+}
+
+#herencia {
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
 }

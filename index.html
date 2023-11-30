@@ -20,14 +20,28 @@
             <li>Selectores:</li>
             <p>Los selectores son para seleccionar el elemento a modificar, puede ser la selección por etiqueta, por
                 clase y finalmente por ID</p>
-            <li>Herencia:</li>
+            <p class="ejemplo">Ejemplo:</p>
+            <p>-Si quiero modificar el H1, lo que tengo que hacer en css, es llamar a la etiqueta luego poner las
+                llaves.
+                ({}) <br>-Ahora si quiero usar el atributo class, tengo que poner en la hoja de estilos un punto luego
+                el
+                nombre que le pusimos a la clase (.clase). <br>-Si quiero hacer uso de ID, tengo que poner como atributo
+                en la misma etiqueta el Id, ponerle un nombre y luego ya podremos usarlo en la hoja de estilos (#conid).
+            </p>
+            <li id="herencia">Herencia:</li>
             <p>La herencia en CSS se refiere a la capacidad de un elemento hijo para heredar estilos de su elemento
                 padre. Por ejemplo,
                 si defines un estilo para el texto en el elemento BODY, ese estilo se heredará en todos los elementos
                 dentro del cuerpo, a menos que se anule.</p>
+
             <li>Cascada:</li>
             <P>Se refiere a la manera en que las reglas CSS se aplican y priorizan. La cascada determina qué
                 regla tiene más peso y, por lo tanto, se aplica.</P>
+            <p class="ejemplo">Ejemplo:</p>
+            <p>Para hacer uso de la cascada seria, si usamos el selector class a una etiqueta y primero le damos un
+                color rojo y luego ponemos otra propiedad mas con un valor diferente, lo que hara la cascada es que se
+                aplicara el ultimo valor que se tiene. </p>
+
             <li>Especificidad:</li>
             <P>La especificidad es el concepto que determina qué reglas se aplican de acuerdo a otro. Se mide en
                 términos de cuán
@@ -36,6 +50,12 @@
                 específicos,por etiqueta tiene un peso de 1, la clase tiene un peso de 10, el ID tiene un peso de 100,
                 inline tiene un peso de 1000 y finalmente !important tiene un peso infinito siendo supererior a
                 cualquiera. </P>
+            <p class="ejemplo">Ejemplo:</p>
+            <p>Para especificidad seria, si queremos dar estilo a una etiqueta que se repite varias veces, usamos el
+                selector por etiqueta, ahora si queremos cambiar solo un grupo de esas etiquetas le damos la propiedad
+                class y se modifica por que tiene un peso mayor, si usamos ID en esa misma etiqueta, tomara valor solo a
+                ID, por orden jerarquico, asi va hasta la propiedad !important que es el que tiene mayo especificidad.
+            </p>
 
 
         </ol>
