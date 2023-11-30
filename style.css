@@ -1,0 +1,25 @@
+* {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+li {
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+h2 {
+
+    background-color: blue;
+    color: white;
+    font-family: cursive;
+
+}
